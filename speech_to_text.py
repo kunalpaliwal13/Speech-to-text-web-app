@@ -11,7 +11,7 @@ import json
 import assemblyai as aai
 
 # set the API key
-aai.settings.api_key = "d16f4183716949e3ab2e4f6b0db99f0f"
+aai.settings.api_key = "d16################9f0f"
 
 transcriber = aai.Transcriber()
 
