@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        form {
+        text-align: center;
+    }
+        h3 {text-align: center;
+            padding-top: 50px;
+            font-size: 30px;
+            font-family: Arial;}
+        h4 {text-align: center;
+            font-family: Arial;}
+        p {text-align: center;}
+        .btn {
+            border: none;
+            background-color: inherit;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            
+            }   
+        div {text-align: center;
+            padding-bottom: 10px;}
+            label {
+                
+                
+                background-color: gre;
+                font-family: sans-serif;
+                border-radius: 0.3rem;
+                cursor: pointer;
+                
+                }
+        
+
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Text to speech conversion</h3>
+    <h4>Hello, this is our model to convert extracted speech from an audio file to text. </h4>
+    
+    
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" id="myFile" name="myFile" /> <!-- Added name attribute -->
+        <input type="submit" value="Upload File" />
+    </form>
+    
+    
+
+</body>
+</html>
