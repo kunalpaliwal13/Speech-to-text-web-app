@@ -21,7 +21,7 @@ def allowed_file(filename):
 def download(filename):
     file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     import assemblyai as aai
-    aai.settings.api_key = "d16f4183716949e3ab2e4f6b0db99f0f"
+    aai.settings.api_key = "d@@#16#####f"
     transcriber = aai.Transcriber()
     transcript = transcriber.transcribe(file_path)
     text = transcript.text
