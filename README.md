@@ -1,4 +1,6 @@
 # Speech-to-text-web-app
+<img src= "https://img.shields.io/badge/python-3.10.0-blue">
+
 This Flask web application allows users to upload audio files in various formats (e.g., MP3, WAV, FLAC) for automatic speech-to-text transcription. Once uploaded, the app transcribes the audio content using the AssemblyAI API, and then provides the transcribed text as a downloadable text file.
 
 ![tts](https://github.com/kunalpaliwal13/Speech-to-text-web-app/assets/143526414/2175387c-2267-4313-befd-9274655bcf00)
